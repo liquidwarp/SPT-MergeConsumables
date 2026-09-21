@@ -3,7 +3,7 @@ using BepInEx.Logging;
 
 namespace MergeConsumablesFika;
 
-[BepInDependency("com.fika.core", BepInDependency.DependencyFlags.HardDependency)]
+[BepInDependency("com.fika.core", "2.4.2")]
 [BepInDependency("com.lacyway.mc", BepInDependency.DependencyFlags.HardDependency)]
 [BepInPlugin("com.lacyway.mcf", "MergeConsumablesFika", "1.1.0")]
 internal class MCF_Plugin : BaseUnityPlugin
